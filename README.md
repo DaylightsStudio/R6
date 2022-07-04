@@ -25,7 +25,7 @@ Toutes téléchargeables ici: https://www.cufonfonts.com/font/fot-rodinbokutoh-p
 
 - [StreamFX](https://github.com/Xaymar/obs-StreamFX/releases/tag/0.11.1 "StreamFX") par Xaymar (descendre au bas de la page et installer le fichier terminant par `.exe`)
 
-### Installation StreamerBot ([note]((note): "note"))
+### Installation StreamerBot (note au bas de la page)
 
 1. Télécharger [StreamerBot](https://streamer.bot/ "StreamerBot")
 
@@ -59,7 +59,7 @@ Toutes téléchargeables ici: https://www.cufonfonts.com/font/fot-rodinbokutoh-p
 Maintenant quand un Viewer redeem un personnage à jouer, le personnage s’affichera en attente. Une fois que vous avez joué le personnage, utilisez le shortcut pour effacer le personnage en attente et rendre actif le Redeem pour une autre sélection.
 
 ------------
-#### (note):
+#### note
  La configuration de base de StreamerBot tel que les liens avec votre compte Twitch, Obs, Streamelements ou Streamlabs doivent déjà été effectué avant l'installation de ce pack.
 Installation OBS
 
