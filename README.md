@@ -29,7 +29,7 @@ Toutes téléchargeables ici: https://www.cufonfonts.com/font/fot-rodinbokutoh-p
 
 1. Télécharger [StreamerBot](https://streamer.bot/ "StreamerBot")
 
-2. extraire l'archive .zip
+2. Extraire l'archive .zip
 
 3. Éxécuter le fichier (double clic) `Streamer.bot.exe`
 
@@ -37,24 +37,15 @@ Toutes téléchargeables ici: https://www.cufonfonts.com/font/fot-rodinbokutoh-p
 
 5. Glissez le fichier `Day R6 ops.txt` dans la case `import string` et cliquez sur *Import*.
 
-6. Dans l’onglet *Channel Point Rewards*, ajouté un nouveau reward et nommé le `R6 Att`
+6. Dans l’onglet *Channel Point Rewards*, ajoutez deux nouveaux rewards et nommez les `R6 Att` et `R6 Def`
+	**IMPORTANT** cochez la case `User Input Required` et dans l’onglet *Action* du bas sélectionnez `Ops att Filter`. Faites la même chose pour `Ops Def Filter`.
 
-	**IMPORTANT** cochez la case `User Input Required` et dans l’onglet *Action* du bas sélectionnez `Ops att Filter`.
+8. Dans l’onglet *Actions*, selectionnez `Ops att Filter` et dans l’onglet *Sub-Action*, faites un clic droit puis *Edit* sur `Reward Set Enabled State`. Assurez-vous que le Reward Actif soit bien `R6 Att` et que le *State* soit **Disabled**. Répetez pour le reward en défense avec `Ops def Filter` ainsi que `R6 Def`.
 
-7. Dans l’onglet *Channel Point Rewards*, ajoutez un nouveau reward et nommez le `R6 Def`
-	**IMPORTANT** cochez la case `User Input Required` et dans l’onglet *Action* du bas sélectionnez `Ops def Filter`.
+10. Dans l’onglet *Action*, selectionnez `Ops att Reset` et dans l’onglet *Sub-Action*, faites un clic droit puis *Edit* sur `Reward Set Enabled State`. Assurez-vous que le Reward Actif est bien `R6 Att`. Répetez pour le reward en défense avec `Ops def Reset` ainsi que `R6 Def`.
 
-8. Dans l’onglet *Actions*, selectionnez `Ops att Filter` et dans l’onglet *Sub-Action*, faites un clic droit puis *Edit* sur `Reward Set Enabled State`. Assurez-vous que le Reward Actif est bien `R6 Att` et que le *State* soit **Disabled**.
+12. Dans l’onglet *Hot Keys*  faites un clic droit et créez un raccourci clavier de votre choix et dans l’onglet *Action* Sélectionnez `Ops att Reset`. Faites la même chose pour `Ops def Reset`.
 
-9. Dans l’onglet *Actions*, selectionnez `Ops def Filter` et dans l’onglet *Sub-Action*, faites un clic droit puis *Edit* sur `Reward Set Enabled State`. Assurez-vous que le Reward Actif est bien `R6 Def` et que le *State* sois **Disabled**.
-
-10. Dans l’onglet *Action*, selectionnez `Ops att Reset` et dans l’onglet *Sub-Action*, faites un clic droit puis *Edit* sur `Reward Set Enabled State`. Assurez-vous que le Reward Actif est bien `R6 Att`.
-
-11. Dans l’onglet *Action*, selectionnez `Ops def Reset` et dans l’onglet *Sub-Action*, faites un clic droit puis *Edit* sur `Reward Set Enabled State`. Assurez-vous que le Reward Actif est bien `R6 Def`.
-
-12. Dans l’onglet *Hot Keys*  faites un clic droit et créez un shortcut de votre choix et dans l’onglet *Action* Sélectionnez `Ops att Reset`.
-
-13. Dans l’onglet *Hot Keys* faites un clic droit et créez un shortcut de votre choix et dans l’onglet *Action* Sélectionnez `Ops def Reset`.
 
 Maintenant quand un Viewer redeem un personnage à jouer, le personnage s’affichera en attente. Une fois que vous avez joué le personnage, utilisez le shortcut pour effacer le personnage en attente et rendre actif le Redeem pour une autre sélection.
 
