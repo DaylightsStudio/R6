@@ -14,9 +14,9 @@ public class CPHInline
 
         string[] ops = operateursListe.Split('\n');
 
-        String operateur = args["rawInput"].ToString().ToLower(); // on prend le input de l'utilisateur et le transforme en minuscules
-        string username = args["userName"].ToString(); // nom d'utilisateur en minuscules
-        string[] bob = {""}; // pseudos de ceux qui peuvent utiliser bob
+        string operateur = args["rawInput"].ToString().ToLower(); // on prend le input de l'utilisateur et le transforme en minuscules
+        string username = args["userName"].ToString().ToLower(); // nom d'utilisateur en minuscules
+        string[] bob = { "daylightsstudio", "adaoh" }; // pseudos de ceux qui peuvent utiliser bob
 
         for (int i = 0; i < ops.Length; i++)
         {

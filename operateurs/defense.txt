@@ -30,3 +30,4 @@ jager
 bandit
 tachanka
 kapkan
+bob
